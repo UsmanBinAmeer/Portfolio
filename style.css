@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 1.8rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+.leftsection{
+   font-size: 3rem;
+   margin: 30px 0;
+}
+.rightsection img{
+   width: 80%;
+   margin: 50px;
+}
+.naam{
+    color: blueviolet;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(155, 86, 220);
+    font-size: 1.08rem;
+}
+#element{
+    color: blueviolet;
+}
+.secoundsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    height: 1.2px;
+    margin: 60px 84px;
+    background: #9c97f1;
+}
+
+.secoundsection h1{
+    font-size: 1.9rem;
+}
+.secoundsection{
+    display: flex;
+    justify-content: center;
+}
+.experience p{ 
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+.experience span{
+    color: #9c97f1;
+}
+.experience .dosra{
+    margin-top: 45px;
+}
+.experience .tisra{
+    margin-top: 45px;
+}
+.experience .panch{
+    margin-top: 45px;
+}
+.line{
+    border: 0;
+    height: 1.2px;
+    margin: 60px 84px;
+    background: #9c97f1;
+}
+.experience .char{
+    margin-top: 45px;
+}
+.secoundsection{
+    margin-top: 150px;
+    height: 330px;
+}
+
+.contactbox{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.contactbox h1{
+    font-size: 2.6rem;
+}
+
+
+.information{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 8px;
+}
+.information {
+    font-size: 25px;
+}
+.informationtwo{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.informationthree{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+footer{
+    width: 100%;
+    height: 140px;
+    background-color: rgb(11, 11, 48);
+margin-top: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+}
+.lastline{
+    border: 0;
+    height: 1.2px;
+    margin: 60px 84px;
+    background: #9c97f1;
+}
